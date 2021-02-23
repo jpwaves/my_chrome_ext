@@ -1,0 +1,15 @@
+{
+    "name": "Getting Started Example",
+    "description": "First Chrome Extension!",
+    "version": "1.0",
+    "author": "Bavesh Matapathi, Justin Pong, Satwik Misra",
+    "manifest_version": 2,
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_title": "test this is title of extension?" 
+        // ^ text that shows up when hovering over extension icon in extension bar
+    },
+    "permissions": [
+        "activeTab"
+    ]
+}
