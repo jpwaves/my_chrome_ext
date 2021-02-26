@@ -3,31 +3,37 @@
 <html>
     <head>
         <title>Click It</title>
+        <link href="assets/style.css" rel="stylesheet">
     </head>
-    <style type="text/css">
-    body {
-        margin: 5px;
-    }
-    h1 {
-        font-size: 15px;
-        text-align: center;
-    }
-    </style>
     <body>
-        <h1>Clicked</h1>
-        <!-- dunno why but the alert isnt centered on the window-->
-        <button id="clickIt">Click</button>
-        <h1>Test List</h1>
-        <ul>
-            <li>1</li>
-            <li>2</li>
-            <li>3</li>
-            <li>4</li>
-            <li>5</li>
-            <li>6</li>
-            <li>7</li>
-            <li>8</li>
-        </ul>
+        <header>
+            <h1>To-Do List</h1>
+            <h4>[Today's date]</h4>
+        </header>
+        <main class="container">
+            <div class="items">
+                <div class="item">
+                    <h3 class="task-name">Task 1</h3>
+                </div>
+                <div class="item">
+                    <h3 class="task-name">Task 2</h3>
+                </div>
+                <div class="item">
+                    <h3 class="task-name">Task 3</h3>
+                </div>
+            </div>
+            <div class="add-item">
+                <form>
+                    <button type="button" id="addItem">Add Item</button>
+                </form>
+            </div>
+            <div class="completed-items">
+                <a href="#">Completed Items</a>
+            </div>
+            <div class="settings-icon">
+                <a href="#">Settings</a>
+            </div>
+        </main>
     </body>
     <script src="popup.js"></script>
 </html>
