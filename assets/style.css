@@ -1,0 +1,45 @@
+/* Reset styling */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Universal Styling */
+
+body {
+    margin: 10px;
+}
+
+/* Header */
+.header {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    width: 150px;
+}
+
+/* To-do list Items */
+
+.container {
+    display: grid;
+    grid-template-rows: 4;
+}
+
+.items {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.item {
+    margin-top: 7px;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 100px;
+}
+
+.item h3 {
+    text-align: center;
+}
